@@ -308,12 +308,21 @@ div.box1{
     padding: 10px;
     position: relative;
 }
-.albumimage i{
+/* .albumimage p i{
+    margin-left: 0px;
+    margin-top: 1px;
+    color:rgb(188, 185, 181)
+}
+.albumimage p i:hover{
+    color: white;
+    font-size: medium;
+} */
+ .albumimage i{
     position:absolute;
     margin-top: 155px;
     margin-left: 156px;
     cursor: pointer;
-}
+} 
 .albumimage i:hover{
     font-size: x-large;
     background-color: black;

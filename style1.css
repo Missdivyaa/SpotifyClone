@@ -1,0 +1,461 @@
+@media screen and (max-width: 450px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        z-index: +1;
+    }
+    .left{
+        display: flex;
+        flex-direction: row;
+        width: 99%;
+        /* flex-direction: column; */
+        height: -2000px;
+    }
+    .down{
+        width: 70%;
+    }
+    .hyperlink{
+        display: flex;
+        flex-direction: column;
+    } 
+    .foot{position:static;
+        
+        width:90%;
+        text-align: start;
+        justify-content: center;
+    }
+    /* .right{
+        margin-top: 100px;
+        display:flex;
+        float: inline-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+}
+.main{
+    display: flex;
+    background-color: black;
+    position: relative;
+    max-height: 190vh;
+    
+    
+    
+}
+
+.left{
+   
+    margin-right: 1200px;
+    color: white;
+    height: 30%;
+    margin-bottom: 250px;
+    
+    
+    
+    
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.left a:hover{
+    text-decoration: underline;
+    color: beige;
+    font-size: large;
+}
+.down{
+    border: 2px solid black;
+    height: 1000px;
+    padding: 10px;
+    background-color: #141313;
+    padding-top: 3px;
+    border-radius: 10px;
+    
+}
+.in{
+    /* margin: 15px; */
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #141313;
+    color: white;
+}
+.lib{display: flex;
+  align-items: center;
+    
+
+}
+.lib p{
+    margin-left: 150px;
+}
+
+.box{
+    border: 2px solid #000000;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    
+    padding: 10px;
+    color: white;
+    background-color: #272626;
+}
+.box button{
+    cursor: pointer;
+    border-radius: 50px;
+    /* width: 125px; */
+    height: 25px;
+}
+.box button:hover{
+    text-decoration: underline;
+    font-size: small;
+}
+.footer {
+    word-spacing: 5 px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 1500px; */
+    gap: 3px;
+    margin-top: 120px;
+    
+    
+}
+.footer button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+}
+.hyperlink{
+   
+    display: flex;
+    gap: 13px;
+    
+}
+.hyperlink a{
+    
+    color: grey;
+    text-decoration: none;
+
+}
+.hyperlink a:hover{
+    font-size: 17px;
+    color: azure;
+}
+.right{margin-left: -1190px;
+    border: 2px solid black;
+     width: 95%; 
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #141313;
+    margin-bottom: 250px;
+    
+}
+ .nav{
+    display: flex;
+    word-spacing: 50px;
+    column-gap:  10px;
+    background-color: #141313;
+} 
+
+.nav button :hover{
+    cursor: pointer;
+    font-size: medium;
+
+}
+.one{
+    margin-left: 40px;
+}
+.two{
+    margin-left: 20px;
+}
+.nav button{
+    width:30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #272626;
+    color: white;
+}
+.float{
+    display: flex;
+    color: white;
+    float: right;
+    margin-left: 1100px;
+    margin-top: -39px;
+    
+}
+.float a{padding-top: 30px;
+    
+
+}
+.float button{
+    cursor: pointer;
+    width:80px;
+    height: 30px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 40px;
+
+}
+.float button:hover{
+    font-size: small;
+
+}
+
+
+.songs{
+    margin-top: 0px;
+    margin-left: -70px;
+    display: flex;
+    background-color:#272626 ;
+    color: white;
+    margin-left: -4px;
+    height: 400px;
+    justify-content: space-between;
+    height: 25%;
+    
+    
+   
+    
+}
+.songs img{
+    height: 175px;
+    width: 175px;
+    border-radius: 100px;
+    
+
+}
+.above{
+    background-color:#272626 ;
+    /* padding: 0px; */
+    color: white;
+    
+}
+.above a{
+    float: right;
+    color:white;
+    text-decoration: none;
+}
+.above a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+div.box1{
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.box1{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+   
+    
+}
+.box1 p{margin-top: 0px;
+    color:rgb(188, 185, 181)
+}
+.songs h3{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.songs h3:hover{
+    text-decoration: underline;
+    font-size: medium;
+}
+.songs a{
+    margin-right: 1500px;
+    text-decoration: none;
+    color:white;
+    margin-left: -2%;
+    
+
+}
+.songs a:hover{
+    font-size: 1.1em;
+    cursor: pointer;
+    color: rgb(157, 157, 152);
+    text-decoration: underline;
+}
+.albums{
+    display: flex;
+    background-color:#272626 ;
+    color: white;
+    margin-left: -4px;
+    height: 400px;
+    justify-content: space-between;
+    height: 27%;
+    margin-top: 0px; 
+}
+.albums img{
+    height: 175px;
+    width: 175px;
+    
+    
+    
+
+}
+.albumimage{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+.albumimage i{
+    position:absolute;
+    margin-top: 155px;
+    margin-left: 156px;
+    cursor: pointer;
+}
+.albumimage i:hover{
+    font-size: x-large;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: green;
+    margin-top: 140px;
+    margin-left: 145px;
+}
+.albumimage h3{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.albumimage h3:hover{
+    text-decoration: underline;
+    font-size: medium;
+}
+.albumimage p{
+    margin-top: 0px;
+    color:rgb(188, 185, 181)
+}
+.albums a{
+    margin-right: 1500px;
+    text-decoration: none;
+    color:white;
+    margin-left: -2%;
+    
+
+}
+.albums a:hover{
+    font-size: 1.1em;
+    cursor: pointer;
+    color: rgb(157, 157, 152);
+    text-decoration: underline;
+}
+
+.radio{
+    display: flex;
+    background-color:#272626 ;
+    color: white;
+    margin-left: -4px;
+    height: 400px;
+    justify-content: space-between;
+    height: 27%;
+    margin-top: 0px;
+}
+.radio img{
+    height: 175px;
+    width: 175px;
+   
+   
+    
+
+}
+.radioimg{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 10px;
+        padding: 10px;
+        position: relative;
+}
+.radioimg i{
+    position:absolute;
+    margin-top: 155px;
+    margin-left: 156px;
+    cursor: pointer;
+}
+.radioimg i:hover{
+    font-size: x-large;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: green;
+    margin-top: 140px;
+    margin-left: 145px;
+}
+.radio a{
+    margin-right: 1500px;
+    text-decoration: none;
+    color:white;
+    margin-left: -2%;
+    
+
+}
+.radio a:hover{
+    font-size: 1.1em;
+    cursor: pointer;
+    color: rgb(157, 157, 152);
+    text-decoration: underline;
+}
+.foot{
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    /* display: flex; */
+   grid-column-start: 1;
+    background-image: -webkit-gradient(linear, left top, right top, from(#af2896), to(#509bf5));
+    /* background-image: linear-gradient(90deg, #af2896, #509bf5);*/
+    color: white;
+    margin-top: -250px;
+    width: 118%;
+   
+    
+}
+.end{
+    display: flex;
+}
+.end button{
+    float: right;
+    margin-left: 780px;
+}
+.foot  h3 {
+    margin: 0px;
+    text-decoration: underline;
+
+}
+.foot  p {
+    margin: 0px;
+
+}
+.foot button{
+    text-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    right:20px;
+    cursor: pointer;
+    width:150px;
+    height: 30px;
+    float: right;
+
+    /* display: flex; */
+    
+    
+    border-radius: 10px;
+    
+}
+.foot button:hover{
+    text-decoration: underline;
+    color: grey;
+    font-size: medium;
+}
